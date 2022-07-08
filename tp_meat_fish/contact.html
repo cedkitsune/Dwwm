@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bc contact</title>
+    <link rel="stylesheet" href="css/bccontact.css" />
+  </head>
+  <body>
+    <!-- creation de div main contact -->
+    <div class="main">
+      <!--creation de formulaire contact avec le logo-->
+      <div class="contact">
+        <div class="logo">
+          <a href="apropos.html"
+            ><img class="lbc" src="image/logo.png" alt="logobc"
+          /></a>
+        </div>
+        <h1>CONTACT</h1>
+      </div>
+      <div class="block">
+        <!-- creation de div form -->
+        <form action="">
+          <label for="nom">Nom</label><br />
+          <input type="text" name="nom" required /><br />
+
+          <label for="prenom">Prenom</label><br />
+          <input type="text" name="prenom" ="" required /><br />
+
+          <label for="email">Votre E-mail</label><br />
+          <input type="email" name="email" required /><br />
+
+          <label for="message">Votre message</label><br />
+          <textarea name="message" cols="30" rows="10" required></textarea>
+          <div>
+            <!--creation du bouton envoyer-->
+            <button class="b1" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

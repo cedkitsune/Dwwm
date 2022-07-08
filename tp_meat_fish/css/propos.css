@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* div main pourvoir centrer le block de gauche, droite et logo */
+.main {
+  margin: 0 auto;
+  width: 1920px;
+  height: 960px;
+  margin: 0;
+  text-align: center;
+}
+/* je change la taille, epaisseur et le type de police et je reoriente et recentre le texte */
+.center {
+  width: 20%;
+  height: 100%;
+  background: rgb(255, 214, 0);
+  display: inline-block;
+}
+.logo {
+  width: 122px;
+  height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-top: 2.5em;
+}
+
+/* je deplace les block droit et gauche pour coller celui du centre */
+.left {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+img.photo {
+  width: 100%;
+  height: 100%;
+}
+
+.center:hover {
+  background: black;
+  color: rgb(255, 214, 0);
+}
+/*changement de la taille, du style de police ,couleur et recentre le texte, et met un fond noir  */
+.propos {
+  font-family: "Roboto";
+  width: 768px;
+  height: 100%;
+  color: white;
+  background: black;
+  float: right;
+  text-align: center;
+}
+/* je modifie la taille les texte et bouge la hauteur des texte et de creation de bordure */
+.titre {
+  margin-top: 20%;
+  padding-bottom: 3%;
+  font-size: 32px;
+}
+.titre::first-letter {
+  text-transform: uppercase;
+}
+.ligne {
+  margin-left: 45%;
+  width: 10%;
+  border-bottom: 2px solid white;
+}
+.Meat {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  font-size: 25px;
+}
+h4 {
+  font-size: 90px;
+}
+p {
+  width: 100%;
+  font-size: 24px;
+}
+.sign {
+  margin-top: 30px;
+  padding-bottom: 10%;
+}
+.retour a {
+  font-size: 20px;
+  padding: 15px 75px 15px 75px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.retour a:hover {
+  border: 2px solid rgb(255, 214, 0);
+  color: rgb(255, 214, 0);
+}

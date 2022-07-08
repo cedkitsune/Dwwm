@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* je donne les proprietes de bloxck main pour voir inserer les trois  */
+
+.main {
+  width: 1920px;
+  height: 960px;
+  margin: 0;
+  text-align: center;
+}
+/* je donne les valeur qui se trouve au milieu des deux autres blocks et qui prend 20%  */
+.center {
+  width: 20%;
+  height: 100%;
+  background: rgb(255, 214, 0);
+  display: inline-block;
+}
+/* je deplace mon logo et met en vertical le text */
+.logo {
+  width: 122px;
+  height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-top: 2.5em;
+  letter-spacing: 0.5em;
+}
+/* je crée le changement de couleur pour le fon et le texte */
+.center:hover {
+  background: black;
+  color: white;
+}
+/* je position les block left & right à gauche et  à droite en collant à celui du milieu et reajustement des block*/
+.left {
+  width: 768px;
+  height: 100%;
+  float: left;
+}
+.right {
+  width: 768px;
+  height: 100%;
+  float: right;
+}
+/* j'insere l'image et creer le mouvment du block monster beef burger du cote gauche  */
+.container {
+  position: relative;
+  width: 0;
+}
+
+.image {
+  display: block;
+  width: 768px;
+  height: 960px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+  width: 768px;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 55px;
+  text-shadow: rgb(255, 214, 0) 1px 1px, rgb(255, 214, 0) -1px 1px,
+    rgb(255, 214, 0) -1px -1px, rgb(255, 214, 0) 1px -1px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* j'insere l'image et creer le mouvment du block monster beef burger du cote gauche  */
+.container1 {
+  position: relative;
+  float: right;
+}
+
+.image1 {
+  display: block;
+  width: 768px;
+  height: 960px;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container1:hover .overlay1 {
+  width: 100%;
+  left: 0;
+}

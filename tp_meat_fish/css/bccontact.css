@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 55px;
+  font-weight: 1000;
+}
+.main {
+  width: 100%;
+  height: 960px;
+  background: url("/exercice/tp_meat_fish/image/contac_photo_fond2.jpeg");
+  padding: 30px 50px;
+  margin: auto;
+  text-align: center;
+}
+.lbc {
+  width: 11%;
+  height: 11%;
+}
+.contact {
+  background: url("/exercice/tp_meat_fish/image/contact_photo_fond.jpeg ");
+  width: 50%;
+  height: 200px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px 25px 0 0;
+  background-position: center;
+  display: inline-block;
+}
+.block {
+  width: 50%;
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.324);
+  border-radius: 0 0 25px 25px;
+  padding-top: 5px;
+}
+label {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+input {
+  background: none;
+  width: 50%;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 3%;
+  border: 1px solid black;
+}
+textarea {
+  background: none;
+  width: 50%;
+  border: 1px solid black;
+}
+.b1 {
+  background: none;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 22%;
+}
+.b1:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
